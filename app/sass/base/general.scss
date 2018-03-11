@@ -3,7 +3,7 @@
 body {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	color: #424242;
+	color: black;
 }
 p {
 	margin: 0;
@@ -32,8 +32,28 @@ li {
 
 section {
 	overflow: hidden;
+	text-align: center;
 }
 h1,h2,h3,h4,h5,h6 {
 	padding: 0;
 	margin: 0;
+}
+
+.section-title {
+	font-size: 40px;
+	padding-bottom: 30px;
+
+}
+.about-p {
+	padding-top: 10px;
+}
+
+.section-p {
+	font-size: 16px;
+}
+.section-padding {
+	padding: 50px 0;
+	@media screen and (min-width: 768px) {
+		padding: 75px 0;
+	}
 }
