@@ -1,5 +1,5 @@
 .header-hero {
-	background: url("../img/hero-bg.jpg") 60% 0 /cover no-repeat;
+	background: url("../img/hero1.jpg") 60% 0 /cover no-repeat;
 	color: white;
 }
 .header {
@@ -27,10 +27,10 @@
 .reg-button {
 	margin-top: 100px;
 	padding: 20px 40px;
-	color: #ffaf36;
+	color: white;
 	font: bold 13px "Raleway", sans-serif;
 	text-transform: uppercase;
-	border: 2px solid #ffaf36;
+	border: 2px solid white;
 
 	  display: inline-block;
 	  vertical-align: middle;
@@ -52,7 +52,7 @@
 	  left: 0;
 	  right: 0;
 	  bottom: 0;
-	  background: #ffaf36;
+	  background: white;
 	  -webkit-transform: scale(0);
 	  transform: scale(0);
 	  -webkit-transition-property: transform;
@@ -81,6 +81,6 @@
 		color: white;
 	}
 	span {
-		color: orange;
+		color: white;
 	}
 }
