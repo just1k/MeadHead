@@ -1,0 +1,48 @@
+footer {
+	background: url("../img/footer-bg.jpg") 60% 0 /cover no-repeat;
+	color: white;
+	padding: 40px 0;
+	display: flex;
+	align-content: center;
+}
+
+.footer-title {
+	float: left;
+	font-size: 24px;
+	@media screen and (min-width: 768px) {
+		font-size: 36px;
+	}
+}
+
+.social-list {
+	float: right;
+	padding-top: 15px;
+	li {
+		display: inline-block;
+		margin: 0 10px;
+		&:first-child {
+			margin-left: 0px; 
+		}
+	}
+	.fa {
+		font-size: 24px;
+	
+	
+	}
+}
+
+.fa-instagram:hover {
+	color: #FF2B7D;
+}
+.fa-facebook:hover {
+	color: #4962B4;
+}
+
+.fa-vk:hover {
+	color: #44678D
+}
+
+.fa-telegram:hover {
+	color: #2DA5DE;
+}
+
