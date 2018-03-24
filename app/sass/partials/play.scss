@@ -1,0 +1,13 @@
+.to-play {
+	background: url("../img/play-bg.jpg") 60% 0 /cover no-repeat;
+}
+.to-play-list {
+	li {
+		@media screen and (max-width: 768px) {
+			padding-bottom: 30px;
+		}
+		img {
+			width: 170px;
+		}
+	}
+}
