@@ -1,0 +1,23 @@
+.rules {
+	background: url("../img/about-bg.jpg") 60% 0 /cover no-repeat;
+	.rules-list {
+		li {
+			margin-bottom: 10px;
+		}
+		.overlay {
+			padding: 15px 0;
+			background: rgba(0,0,0,0.5);
+			color: white;
+			max-width: 200px;
+			margin: 0 auto;
+			span {
+				font-size: 50px;
+			}
+			p {
+				font-size: 14px;
+				font-weight: bold;
+			}
+
+		}
+	}
+}
