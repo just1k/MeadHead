@@ -2,28 +2,25 @@
   border: none;
   border-radius: 0;
   border-bottom: 1px solid rgba(221, 228, 234, 0.2);
-  background: transparent;
+  background: black;
 	  .navbar-collapse{
-	    padding: 15px 0;
+	    padding: 8px 0;
   }
 
 }
 
 .navbar-toggle {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .navbar-brand {
 	padding-top: 0;
 }
-.navbar-nav {
-	padding-top: 5px;
-}
 
 .navbar-nav li a {
 	padding: 5px 0 5px 30px;
 	@media screen and (min-width: 991px) {
-		padding: 15px;
+		padding: 10px;
 	}
 }
 
@@ -79,6 +76,6 @@
 
 .navbar-default .navbar-brand {
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 30px;
 }
