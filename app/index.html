@@ -10,52 +10,53 @@
 </head>
 <body>
 	<div class="header-hero header">
-		<header>
-			<nav class="navbar navbar-default">
-				  <div class="container">
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <h1><a class="navbar-brand" href="index.html">Madhead.ck.ua</a></h1>
-				    </div>
+		<div class="hero-overlay hero-content">
+			<header>
+				<nav class="navbar navbar-default navbar-fixed-top">
+					  <div class="container">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <h1><a class="navbar-brand" href="index.html">Madhead<span class="red"></span>ck<span class="green"></span>ua</a></h1>
+					    </div>
 
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Главная</a></li>
-                            <li><a href="#">Игра</a></li>
-                            <li><a href="#">Зачем</a></li>
-                            <li><a href="#">Фотографии</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-			</nav>
-		</header>
-		<section class="section-hero">
-			<div class="container">
-				<h2 class="hero-heading">
-					Mad Head Show
-				</h2>
-				<p class="hero-p">
-					Интелектуально развлекательная игра №1 в Черкассах 
-				</p>
-				<a href="https://app.madhead.ck.ua/#!/games" class="reg-button">
-					Зарегестрироваться
-				<a>
-				<a href="#" class="hero-arrow">
-					<span class="fa fa-arrow-down"></span>
-				</a>
-			</div>
-		</section>
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                        <ul class="nav navbar-nav navbar-right" id="menu">
+	                            <li><a href="index.html">Главная</a></li>
+	                            <li><a href="#about">Игра</a></li>
+	                            <li><a href="#reason">Зачем</a></li>
+	                            <li><a href="#gallery">Фото</a></li>
+	                            <li><a href="#play">Как</a></li>
+	                            <li><a href="#rules">Правила</a></li>
+	                            <li><a href="#partners">Партнеры</a></li>
+	                            <li><a href="#location">Где</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+				</nav>
+			</header>
+			<section class="section-hero section-padding">
+				<div class="container">
+					<h2 class="hero-heading">
+						Mad Head Show
+					</h2>
+					<p class="hero-p">
+						Интелектуально развлекательная игра №1 в Черкассах 
+					</p>
+					<a href="https://app.madhead.ck.ua/#!/games" class="reg-button brand-button">
+						Зарегестрироваться
+					</a>
+				</div>
+			</section>
+		</div>
+		
 	</div>
 
-	<section class="about section-padding">
+	<section class="about section-padding" id="about">
 		<div class="container">
 			<h3 class="section-title">
 				Про Mad Head шоу 
@@ -143,7 +144,7 @@
 		</div>
 	</section>
 
-	<section class="reason section-padding">
+	<section class="reason section-padding" id="reason">
 		<div class="container">
 			<h3 class="section-title">
 				4 причины играть 
@@ -182,7 +183,7 @@
 	</section>
 
 
-	<section class="gallery">
+	<section class="gallery" id="gallery">
 		<div class="overlay section-padding">
 			<div class="container">
 				<h3 class="section-title">
@@ -204,7 +205,7 @@
 		</div>
 	</section>
 
-	<section class="to-play section-padding">
+	<section class="to-play section-padding" id="play">
 		<div class="container">
 			<h3 class="section-title">
 				Как попасть на игру?
@@ -242,7 +243,7 @@
 		</div>
 	</section>
 
-	<section class="rules section-padding">
+	<section class="rules section-padding" id="rules">
 		<h3 class="section-title">
 			Правила игры
 		</h3>
@@ -288,10 +289,11 @@
 					</div>
 				</li>
 			</ul>
-			<a href="#" class="reg-button" id ="go">Подробные правила игры</a>
+			<a href="#" class="brand-button" id ="go"><span class="fa fa-search"></span>Подробные правила игры</a>
 
-			<div id="modal_form"><!-- Сaмo oкнo --> 
-		      <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть --> 
+			<div id="modal_form">
+				<div class="answer">
+				<span id="modal_close" class="fa fa-window-close"></span> <!-- Кнoпкa зaкрыть --> 
 		      	<p>1. В игре принимают участие до 38 команд по 4-8 человек, стоимость участия 200 крон/человек.</p> 
 
 				<p>2. Игра состоит из 4-х туров, каждый отличается своей уникальностью и способом ответа на поставленный вопрос. В каждой отдельно взятой игре количество туров может менятся. Но на постоянной основне чаще всего встречаются следующие туры:
@@ -314,16 +316,18 @@
 
 				<p>Во время игры ЗАПРЕЩЕНО:</p>
 
-				<p>пользоваться телефонами, во время минуты ответа на вопрос запрещено даже держать его в руках!</p>
-				<p>сдавать более, чем один ответ на вопрос</p>
-				<p>В обоих случаях счётная комиссия вправе минусовать по 3 балла. К сожалению, подобную меру мы вынуждены были внести, так как поступали жалобы на команды, пользовавшиеся телефонами в поисках верного ответа.</p>
+				<p>- пользоваться телефонами, во время минуты ответа на вопрос запрещено даже держать его в руках!</p>
+				<p>- сдавать более, чем один ответ на вопрос</p>
+				<p>В обоих случаях счётная комиссия вправе минусовать по 3 балла. К сожалению, подобную меру мы вынуждены были внести, так как поступали жалобы на команды, пользовавшиеся телефонами в поисках верного ответа.</p>	
+				</div><!-- Сaмo oкнo --> 
+		      
 			</div>
 			<div id="overlay"></div><!-- Пoдлoжкa -->
 		</div>
 	</section>
 
 
-		<section class="partners section-padding">
+		<section class="partners section-padding" id="partners">
 		<div class="container">
 			<h3 class="section-title">
 				Наши партнеры
@@ -352,7 +356,7 @@
 			</ul>
 		</div>
 	</section>
-	<section class="location section-padding">
+	<section class="location section-padding" id="location">
 		<div class="container">
 			<h3 class="section-title">
 				Место проведения
