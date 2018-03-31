@@ -4,6 +4,7 @@ body {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	color: black;
+	position: relative;
 }
 p {
 	margin: 0;
@@ -156,6 +157,9 @@ h1,h2,h3,h4,h5,h6 {
 	}
 	&:hover, &:focus, &:active {
 	  color: black;
+	}
+	&:focus {
+		background: orange;
 	}
 	&:hover:before, &:focus:before, &:active:before {
 	  -webkit-transform: scale(1);

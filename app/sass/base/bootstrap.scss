@@ -72,14 +72,10 @@
   @media screen and (min-width: 768px) {
     padding-right: 10px;
   }
-  &:hover {
+  &:hover, &:active, &:focus {
     color: #F1CD4C;
   }
 }
-.navbar-nav  li a.current {
-  color: #ffaf36;
-}
-
 .navbar-default .navbar-brand {
   color: white;
   padding-top: 20px;
