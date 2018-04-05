@@ -1,7 +1,5 @@
-.header-hero {
-	background: url("../img/gallery-bg.png") 60% 0 /cover no-repeat;
-	color: white;
-	h1 {
+header {
+		h1 {
 		span {
 			display: inline-block;
 			width: 3px;
@@ -21,17 +19,21 @@
 	}
 }
 
-.hero-overlay {
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
-}
-.header {
+
+.hero {
+	background: url("../img/gallery-bg.png") 60% 0 /cover no-repeat;
+	color: white;
 	height: 100vh;
 	position: relative;
 	@media screen and (min-width: 768px) {
 		height: auto;
 	}
+}
+
+.hero-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
 }
 
 .section-hero {

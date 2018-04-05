@@ -19,7 +19,7 @@ $(document).ready(function () {
     }
 	});
 
-$('.gallery-item img').click(function() {
+$('.photo-item img').click(function() {
     $(this).colorbox({
         href: $(this).attr('src'),
         opacity: "0.60",
