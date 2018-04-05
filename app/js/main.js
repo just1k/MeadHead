@@ -62,8 +62,20 @@ $(document).ready(function () {
         var id  = $(this).attr('href'),
             top = $(id).offset().top-58;
         $('body,html').animate({scrollTop: top}, 1000);
+        $('.navbar-collapse').removeClass('in');
     });
 });
 
+jQuery(document).ready(function($) {  
+$(window).scroll(function(){
+    if  ($(window).scrollTop() > 300)
+        $('#slidebox').animate({'left':'0px'},500);
+        else
+        $('#slidebox').stop(true).animate({'left':'-230px'},500);   
+    });
+    $('#slidebox .close').bind('click',function(){
+        $(this).parent().remove();  
+    });
+    });
     
 

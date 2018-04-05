@@ -6,8 +6,14 @@ footer {
 	align-content: center;
 }
 
+.footer-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
 .footer-title {
-	float: left;
 	font-size: 24px;
 	@media screen and (min-width: 768px) {
 		font-size: 36px;
@@ -15,7 +21,6 @@ footer {
 }
 
 .social-list {
-	float: right;
 	padding-top: 15px;
 	li {
 		display: inline-block;
@@ -44,5 +49,23 @@ footer {
 
 .fa-telegram:hover {
 	color: #2DA5DE;
+}
+
+.contacts {
+	font-size: 16px;
+	text-align: center;
+	span {
+		display: block;
+	}
+	.organizer {
+		font-size: 24px;
+		padding: 10px 30px;
+	}
+	.phone-title {
+		padding-bottom: 5px;
+	}
+	.phone {
+		font-size: 18px;
+	}
 }
 

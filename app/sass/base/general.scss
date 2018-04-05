@@ -57,14 +57,41 @@ h1,h2,h3,h4,h5,h6 {
 			width: 70px;
 		}
 	}
+
 	.overlay {
+		text-align: justify;
 		margin-top: 30px;
-		background: rgba(0,0,0,0.3);
+		margin-bottom: 30px;
+		background: rgba(0,0,0,0.2);
 		padding: 10px;
 		border-radius: 15px;
 	}
-
 }
+
+.reg-brand {
+	padding: 15px 25px;
+	background: #37B600;
+	border: 1px solid black;
+	border-radius: 50px;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: 0.2s all ease-out;
+	@media screen and (min-width: 768px){
+		margin-top: 60px;
+	}
+	&:hover {
+		background: #3DF400;
+	}
+	&:active {
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	}
+	&:link, &:visited {
+		color: white;
+	}
+}
+
+
 .flex {
 	display: flex;
 	flex-direction: row;
@@ -96,7 +123,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 .about-p {
 	padding-top: 10px;
-	text-align: justify;
 }
 
 .section-p {
@@ -123,8 +149,6 @@ h1,h2,h3,h4,h5,h6 {
 	color: white;
 	font: bold 13px "Raleway", sans-serif;
 	text-transform: uppercase;
-	border: 2px solid black;
-
 	  display: inline-block;
 	  vertical-align: middle;
 	  -webkit-transform: perspective(1px) translateZ(0);
@@ -145,7 +169,7 @@ h1,h2,h3,h4,h5,h6 {
 	  left: 0;
 	  right: 0;
 	  bottom: 0;
-	  background: yellow;
+	  background: #37B600;
 	  -webkit-transform: scale(0);
 	  transform: scale(0);
 	  -webkit-transition-property: transform;
@@ -156,10 +180,11 @@ h1,h2,h3,h4,h5,h6 {
 	  transition-timing-function: ease-out;
 	}
 	&:hover, &:focus, &:active {
-	  color: black;
+	  color: white;
 	}
-	&:focus {
-		background: orange;
+	&:active {
+		background: #225D09;
+		box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 	}
 	&:hover:before, &:focus:before, &:active:before {
 	  -webkit-transform: scale(1);
